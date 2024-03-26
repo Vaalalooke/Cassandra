@@ -1,5 +1,8 @@
 # Cassandra
-Starting to learn cassandra by example, beginning simple with docker
+
+Beginning to learn cassandra by example, starting simple with docker.
+
+Following https://cassandra.apache.org/_/quickstart.html and updating some to get it working with latest version and podman.
 
 ## Files
 
