@@ -1,8 +1,8 @@
 # Cassandra
 
-Beginning to learn cassandra by example, starting simple with docker.
+Learning cassandra by example, start simple with docker.
 
-Following https://cassandra.apache.org/_/quickstart.html and updating some to get it working with latest version and podman.
+Following https://cassandra.apache.org/_/quickstart.html and updating some to get it working with latest version and Podman instead of Docker but with command link to use Docker syntax.
 
 ## Files
 
@@ -28,6 +28,8 @@ SELECT * FROM store.shopping_cart;
 ### 1.get_image.sh
  
 docker pull docker.io/cassandra:latest
+
+Note: Added `docker.io/` to the image so podman can find it.
  
 ### 2.start_cassandra.sh
  
